@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito", sans-serif;
+    background-color: #15084e;
+}
+main{
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+
+    & div{
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+.submit{
+    border: none;
+    background-color: #15084e;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    transition: 0.3s;
+
+}
+.submit:hover{
+    background-color: #351aaa;
+}
